@@ -10,4 +10,8 @@ workflows:
   welcome:
     # Run the welcome/run job in its own container
     jobs:
-      -  notacommand
+      -  echo 'Hello'
+  welcome22:
+    # Run the welcome/run job in its own container
+    jobs:
+      -  echo 'Hi there'
